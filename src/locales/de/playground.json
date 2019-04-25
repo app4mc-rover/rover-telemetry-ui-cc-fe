@@ -1,0 +1,9 @@
+{
+    "commands": {
+        "forward": "Vorwärts",
+        "backward": "Rückwärts",
+        "left": "Links",
+        "right": "Rechts",
+        "stop": "Stopp"
+    }
+}

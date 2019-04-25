@@ -1,0 +1,9 @@
+{
+    "commands": {
+        "forward": "Ileri",
+        "backward": "Geri",
+        "left": "Sol",
+        "right": "Sag",
+        "stop": "Dur"
+    }
+}

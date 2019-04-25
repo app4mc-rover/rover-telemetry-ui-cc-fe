@@ -1,0 +1,12 @@
+{
+    "footer": {
+        "recents": "Recents",
+        "favorites": "Favorites"
+    },
+    "header": {
+        "appstacle": "APPSTACLE",
+        "roverTelemetry": "ROVER TELEMETRY",
+        "appstore": "APPSTORE",
+        "playground": "PLAYGROUND"
+    }
+}

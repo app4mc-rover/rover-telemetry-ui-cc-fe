@@ -1,0 +1,11 @@
+{
+    "telemetryCard": {
+        "visualize": "Göster"
+    },
+    "commands": {
+        "forward": "Ileri",
+        "backward": "Geri",
+        "left": "Sol",
+        "right": "Sag"
+    }
+}
