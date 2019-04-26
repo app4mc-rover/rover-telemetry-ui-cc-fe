@@ -1,3 +1,5 @@
+Credits for initial implementations to [huigc001](https://github.com/huigc001)
+
 # Telemetry-UI Frontend with Hono C&C
 
 The Telemetry-UI visualizes telemetry data and allows to show data in diagrams.
