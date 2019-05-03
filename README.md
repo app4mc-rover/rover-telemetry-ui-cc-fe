@@ -9,9 +9,12 @@ The Telemetry-UI is made for demonstrations to combine all use cases on a fronte
 
 ## Do you want to start the frontend?
 
-If you are ready just do the following:
+Enter the folder and do the following:
 
-### `npm start`
+```sh
+sudo npm install
+sudo npm start
+```
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
