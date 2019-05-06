@@ -45,7 +45,7 @@ class Telemetry extends Component {
       <Subscribe to={[TelemetryContainer]}>
         {telemetryContainer => (
           <div>
-            <SockJsClient url='http://172.22.167.42:8081/gs-guide-websocket'
+            <SockJsClient url='http://localhost:8081/gs-guide-websocket'
               topics={['/topic/' + roverID + '/telemetry']}
               onMessage={telemetryContainer.handleTelemetryUpdate}
               ref={(client) => { this.clientRef = client }} />
