@@ -1,9 +1,9 @@
 Credits for initial implementations to [huigc001](https://github.com/huigc001)
 
-# Telemetry-UI Frontend with Hono C&C
+# Telemetry-UI Frontend
 
 The Telemetry-UI visualizes telemetry data by means of diagrams and allows to control a vehicle.
-Furthermore, it provides a playground where users can program the vehicle by adding actions to the playground.
+Furthermore, it provides a playground where users can program the vehicle movement by adding actions to the playground.
 
 The Telemetry-UI is made for demonstrations to combine all use cases on a frontend, for example appstore, playground, or communication with third-party cloud service.
 
@@ -34,8 +34,8 @@ If you don't run the application on a local computer and want to deploy on a ser
 * [TelemetryService](https://github.com/app4mc-rover/rover-telemetry-ui-cc-fe/blob/master/src/TelemetryService.js)
 * [TelemetryView](https://github.com/app4mc-rover/rover-telemetry-ui-cc-fe/blob/master/src/pages/telemetry/TelemetryView.js)
 
-### Starting the Application
-Enter the folder and execute the following commands:
+### Starting the application
+Enter the main folder and execute the following command:
 
 ```sh
 sudo npm install
@@ -48,16 +48,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-## What you need to know about the Application
+## What you need to know about the application
 
-### Used Technologies
-- ReactJS
-- Redux
-- Material UI
-- HTML5
-- CSS3
-- JavaScript
-- i18next
+### Used technologies
+* ReactJS
+* Redux
+* Material UI
+* HTML5
+* CSS3
+* JavaScript
+* i18next
 
 ### What are bundles?
 Bundles logically combine all files that belong together like common code that is used. <br>
@@ -72,9 +72,9 @@ The states are managed by redux, which stores the states in one big store sepera
 You can find the combination of all partitions in `src/reducers/index.js` <br>
 
 ### Current limitations
-- Displaying telemetry data is currently not working due to a change in the data format
-- The playground is still in development. It works but looks terrible.
-- The appstore use case has to be included
-- Appstacle information have to be set properly and translated in locales
-- Translations all over the application have to be controlled
-- Application is not modular, which means that only one rover can be used (to change rover you need to edit the backend)
+* Displaying telemetry data is currently not working due to a change in the data format
+* The playground is still in development. It works but looks terrible.
+* The appstore use case has to be included
+* Appstacle information have to be set properly and translated in locales
+* Translations all over the application have to be controlled
+* Application is not modular, which means that only one rover can be used (to change rover you need to edit the backend)
