@@ -14,7 +14,7 @@
 export default class TelemetryService {
     
     constructor(domain) {
-        this.domain = domain || 'http://172.22.167.42:8081';
+        this.domain = domain || 'http://localhost:8081';
         this.fetch = this.fetch.bind(this);
     }
 
