@@ -34,7 +34,7 @@ class TelemetryContainer extends Container {
             mode: 1
         }
 
-        axios.post('http://172.22.167.42:8081/rover/' + roverID + '/command-control', telegram)
+        axios.post('http://localhost:8081/rover/' + roverID + '/command-control', telegram)
             .then(function (response) {
                 console.log(response);
             })
